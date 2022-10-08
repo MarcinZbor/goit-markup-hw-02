@@ -1,0 +1,191 @@
+:root {
+  --brand-color: #212121;
+  --brand-background: #f5f4fa;
+  --hover: #2196f3;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+}
+
+.logolink {
+  text-decoration: none;
+}
+.logo1 {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--hover);
+}
+.logo2 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.38;
+  letter-spacing: 0.03ems;
+  text-align: left;
+  color: #000000;
+}
+
+.navigation {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
+  list-style: none;
+}
+.links {
+  text-decoration: none;
+  color: var(--brand-color);
+}
+.active {
+  color: var(--hover);
+}
+.emailtel {
+  list-style: none;
+}
+
+.contact {
+  text-decoration: none;
+  list-style: none;
+  color: #757575;
+}
+.adres {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+}
+a:hover {
+  color: var(--hover);
+}
+a:focus {
+  color: var(--hover);
+}
+button.button {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--brand-color);
+  background-color: var(--brand-background);
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin: 8px;
+  cursor: pointer;
+  
+}
+button.button:active {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+button.button:hover,
+button.button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.imageslist {
+  list-style: none;
+}
+.list-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left; 
+  margin-bottom: 4px;
+  margin-top: 20px;
+  color: #212121;
+}
+.list-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 4px;
+  color: #757575;
+}
+
+/* /Stylizacja do index.html/ */
+.h1{
+font-size: 44px;
+font-weight: 900;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-align: center;
+color: #ffffff;
+}
+.inside1{
+font-size: 14px;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--brand-color);
+}
+.lorem{
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-align: left;
+color: #757575;
+}
+.inside2{
+  font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--brand-color);
+}
+.picinside2{
+  list-style: none;
+}
+.inside21{
+  list-style: none;
+}
+.John{
+font-size: 16px;
+font-weight: 500;
+line-height: 1.18;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--brand-color);
+}
+.insidejohn{
+font-size: 16px;
+font-weight: 400;
+line-height: 1.18;
+letter-spacing: 0.03em;
+text-align: center;
+color:#757575;
+}
+button.button-home{
+  cursor:pointer;
+  border: none;
+  background-color: #2196f3;
+  color:#ffffff;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.87;
+letter-spacing: 0.06em;
+text-align: center;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 42px;
+padding-right: 41px;
+}
