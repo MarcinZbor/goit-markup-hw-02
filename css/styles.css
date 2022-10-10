@@ -14,7 +14,6 @@ body {
 .logo1 {
   font-family: Raleway;
   font-size: 26px;
-  font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: left;
@@ -116,7 +115,6 @@ button.button:focus {
 }
 .list-name {
   font-size: 18px;
-  font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
@@ -146,7 +144,6 @@ button.button:focus {
 }
 .inside1 {
   font-size: 14px;
-  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
@@ -162,7 +159,6 @@ button.button:focus {
 }
 .inside2 {
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
@@ -197,7 +193,6 @@ button.button-home {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
