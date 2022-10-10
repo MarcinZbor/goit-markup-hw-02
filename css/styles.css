@@ -2,10 +2,10 @@
   --brand-color: #212121;
   --brand-background: #f5f4fa;
   --hover: #2196f3;
+  --lorem: #757575;
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #e5e5e5;
 }
 
 .logolink {
@@ -21,12 +21,22 @@ body {
   color: var(--hover);
 }
 .logo2 {
+  font-family: Raleway;
   font-size: 26px;
   font-weight: 400;
   line-height: 1.38;
   letter-spacing: 0.03ems;
   text-align: left;
   color: #000000;
+}
+.logo3 {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.38;
+  letter-spacing: 0.03ems;
+  text-align: left;
+  color: #ffffff;
 }
 
 .navigation {
@@ -51,7 +61,15 @@ body {
 .contact {
   text-decoration: none;
   list-style: none;
-  color: #757575;
+  color: var(--lorem);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+address {
+  font-style: normal;
 }
 .adres {
   font-size: 14px;
@@ -68,7 +86,7 @@ a:focus {
   color: var(--hover);
 }
 button.button {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
@@ -83,7 +101,6 @@ button.button {
   padding-right: 22px;
   margin: 8px;
   cursor: pointer;
-  
 }
 button.button:active {
   background-color: #2196f3;
@@ -102,7 +119,7 @@ button.button:focus {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-align: left; 
+  text-align: left;
   margin-bottom: 4px;
   margin-top: 20px;
   color: #212121;
@@ -115,77 +132,80 @@ button.button:focus {
   text-align: left;
   margin-bottom: 20px;
   margin-top: 4px;
-  color: #757575;
+  color: var(--lorem);
 }
 
 /* /Stylizacja do index.html/ */
-.h1{
-font-size: 44px;
-font-weight: 900;
-line-height: 1.36;
-letter-spacing: 0.06em;
-text-align: center;
-color: #ffffff;
+.h1 {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
 }
-.inside1{
-font-size: 14px;
-font-weight: 700;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-align: left;
-color: var(--brand-color);
+.inside1 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--brand-color);
 }
-.lorem{
-font-size: 14px;
-font-weight: 400;
-line-height: 1.71;
-letter-spacing: 0.03em;
-text-align: left;
-color: #757575;
+.lorem {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--lorem);
 }
-.inside2{
-  font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 0.03em;
-text-align: center;
-color: var(--brand-color);
+.inside2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--brand-color);
 }
-.picinside2{
+.picinside2 {
   list-style: none;
 }
-.inside21{
+.inside21 {
   list-style: none;
 }
-.John{
-font-size: 16px;
-font-weight: 500;
-line-height: 1.18;
-letter-spacing: 0.03em;
-text-align: center;
-color: var(--brand-color);
+.John {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--brand-color);
 }
-.insidejohn{
-font-size: 16px;
-font-weight: 400;
-line-height: 1.18;
-letter-spacing: 0.03em;
-text-align: center;
-color:#757575;
+.insidejohn {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--lorem);
 }
-button.button-home{
-  cursor:pointer;
+button.button-home {
+  cursor: pointer;
   border: none;
   background-color: #2196f3;
-  color:#ffffff;
-font-size: 16px;
-font-weight: 700;
-line-height: 1.87;
-letter-spacing: 0.06em;
-text-align: center;
-padding-top: 4px;
-padding-bottom: 4px;
-padding-left: 42px;
-padding-right: 41px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 42px;
+  padding-right: 41px;
+}
+footer {
+  background-color: #2f303a;
 }
